@@ -81,6 +81,43 @@ html {
        resize: vertical;
    }
    #container{display:inline-block;}
+   #projects {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    }
+      
+    
+    
+    .webpic{
+    width: 230px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid #70A17A;
+    }
+    
+    .text-block {
+    background:rgb(92, 118, 153);
+    width: 234px;
+    height: 40px;
+    margin-top: 136px;
+    padding-top: 20px;
+    position: absolute;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #212923;
+    text-align: center;
+    transition: all 0.2s linear;
+    }
+    
+    
+    .text-block:hover {
+    background: #777777;
+    }
+
    @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
