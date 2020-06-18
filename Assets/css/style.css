@@ -82,7 +82,7 @@ html {
    }
    #container{display:inline-block;}
    #projects {
-    width: 100%;
+    width: 75%;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
