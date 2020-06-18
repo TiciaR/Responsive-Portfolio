@@ -6,7 +6,7 @@ html {
        margin: 50px;
        position: relative; 
    }
-   img {
+   #profilepic {
        width: 200px;
        float: left;
        margin: 10px;
@@ -88,31 +88,51 @@ html {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 15px;
+    clear: both;
     }
-      
-    
+     .projectpics{
+    /* position: relative; */
+    border: 10px solid black;
+    display: inline-block;
+    width: 270px;
+    background-color: black;
+    }
     
     .webpic{
     width: 230px;
     height: 200px;
     padding: 0px 0px 0px 0px;
-    border: 2px solid #70A17A;
+    border: 20px solid #70A17A;
     }
     
     .text-block {
     background:rgb(92, 118, 153);
-    width: 234px;
+    width: 230px;
     height: 40px;
-    margin-top: 136px;
-    padding-top: 20px;
-    position: absolute;
+    /* margin-top: 136px; */
+    /* padding-top: 20px; */
+    /* position: absolute; */
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     color: #212923;
     text-align: center;
     transition: all 0.2s linear;
     }
+    .titlelink{
+    position: absolute;
+    left: 370px;
+
+    background:rgb(92, 118, 153);
+    width: 265px;
+    height: 40px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #212923;
+    text-align: center;
+    transition: all 0.2s linear;
+    text-decoration: none;
     
+    }
     
     .text-block:hover {
     background: #777777;
